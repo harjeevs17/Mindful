@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap');
+
+.tab-list {
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+}
+  
+.tab-list-item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+}
+  
+.tab-list-active {
+    background-color: white;
+    border: solid #ccc;
+    border-width: 1px 1px 0 1px;
+}
+
+.tab-property {
+    box-sizing: border-box;
+    width: 1050px;
+    height: 750px;
+    font-family: "Caveat", cursive !important;
+    font-size: 20px;
+    font-weight: bold;
+}
