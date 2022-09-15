@@ -1,6 +1,9 @@
+ 
 const Breathe = () => {
     return (
-        <p>this is the Breathe page</p>
+    <div>
+        <img src={require('../assets/breathing.gif')} alt="loading..." />
+    </div>
     )
 }
 export default Breathe;
