@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.optionsBox {
+    justify-content: center;
+    display: grid;
+    grid: auto auto / auto auto auto auto;
+    grid-gap: 10px;
+    margin: 10px;
+    width: 700px
+}
+
+.selfHelpQuestions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    background: rgba(232, 95, 224, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(232, 95, 224, 0.3);
+}
+
+.optionsBox .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 10px;
+    width: 100%;
+    /* From https://css.glass */
+    background: rgba(48, 167, 204, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(48, 167, 204, 0.3);
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navigation p {
+    margin: 10px;
+    cursor: pointer;
+}

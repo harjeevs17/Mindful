@@ -1,0 +1,37 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.containerOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.welcomeBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 10px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
