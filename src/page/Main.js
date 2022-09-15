@@ -9,12 +9,12 @@ const Main = () => {
             <div className="containerOptions">
                 <Link to={"/breathe"} style={{ textDecoration: "none" }}>
                     <div className="box">
-                        <p>Calm me down</p>
+                        <p>Breathe</p>
                     </div>
                 </Link>
                 <Link to={"/selfHelp"} style={{ textDecoration: "none" }}>
                     <div className="box">
-                        <p>Self Access</p>
+                        <p>Mood Score</p>
                     </div>
                 </Link>
                 <Link to={"/knowYourEmotions"} style={{ textDecoration: "none" }}>

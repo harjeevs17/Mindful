@@ -28,8 +28,8 @@
     background: rgba(232, 95, 224, 0.18);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.6px);
-    -webkit-backdrop-filter: blur(3.6px);
+
+
     border: 1px solid rgba(232, 95, 224, 0.3);
 }
 
@@ -44,8 +44,8 @@
     background: rgba(48, 167, 204, 0.18);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.6px);
-    -webkit-backdrop-filter: blur(3.6px);
+
+
     border: 1px solid rgba(48, 167, 204, 0.3);
     cursor: pointer;
 }
@@ -55,9 +55,50 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: 25px;
 }
 
 .navigation p {
     margin: 10px;
+    cursor: pointer;
+}
+
+
+.successfully-saved.hide-opacity {
+    opacity: 0;
+}
+
+.successfully-saved {
+    color: #FFFFFF;
+    text-align: center;
+    transition: opacity 3s ease-in-out;
+    opacity: 1;
+}
+
+.submit {
+    width: 100%;
+    text-align: center;
+    /* From https://css.glass */
+    background: rgba(95, 232, 117, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    border: 1px solid rgba(95, 232, 117, 0.3);
+    cursor: pointer;
+}
+
+.selected {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 10px;
+    width: 100%;
+    /* From https://css.glass */
+    background: rgb(56 204 48 / 18%) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(48, 167, 204, 0.3);
     cursor: pointer;
 }

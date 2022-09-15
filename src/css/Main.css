@@ -1,6 +1,9 @@
-* {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Flex', sans-serif;
+body {
+    background-image: url('https://cdn.dribbble.com/users/1436887/screenshots/13915124/media/5a653c315bafcd250678b2b70057d598.gif');
+    background-size: 413px 364px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #f7e8df
 }
 
 .containerOptions {
@@ -14,7 +17,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35vh;
+    height: 30vh;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
 }
 
 .box {
@@ -34,4 +41,9 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+.box p {
+    font-family: "Caveat", cursive;
+    font-size: 1.5rem;
 }
